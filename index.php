@@ -1,5 +1,5 @@
 <?php
-$url = 'https://raw.githubusercontent.com/pemaindepan/iponly/main/litening.txt';
+$url = 'https://raw.githubusercontent.com/pemaindepan/iponly/main/listening.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
